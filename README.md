@@ -1,1 +1,1 @@
-# Multi-Threading
+This Python script retrieves real-time data for specified cryptocurrencies at specified candle intervals using the Binance API. This operation is performed using the multi-threading method because it aims to fetch data for different cryptocurrencies and different candle intervals simultaneously. This allows for the analysis of money flow connections and correlations among the specified cryptocurrencies. The obtained data is stored in different MySQL tables. Subsequently, the data is analyzed using SQL queries.
